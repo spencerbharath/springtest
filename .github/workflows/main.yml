@@ -15,5 +15,6 @@ jobs:
       run: |
         cd gs-gradle-master/initial
         ls -l
+        env
         chmod +x gradlew
         ./gradlew build
